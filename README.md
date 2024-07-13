@@ -4,7 +4,7 @@ SignPal: Your Friendly Digital Avatar Companion for Effortless Sign Language Com
 
 **SignPal** is an innovative tool designed to bridge the communication gap for the deaf community. Our goal is to enable seamless translation of all types of audio inputs, including phone calls, YouTube videos, and other media, into sign language in real-time. 
 
-## About SignPal:
+## About SignPal 
 SignPal is a complex system that uses NLTK, NLP models, SigML, and several other APIs to convert audio to text to ISL and then generate an avatar that uses SigML for ISL gestures in real-time. 
 
 **Team Members :** Aryan Sood , Tarun Jain , Ujjwal Kakar and Sanchali Thareja 
