@@ -4,6 +4,7 @@
 
 SignPal is a complex system that uses NLTK, NLP models, SigML, and several other APIs to convert audio to text to ISL and then generate an avatar that uses SigML for ISL gestures in real-time. 
 
+**Team Members :** Aryan Sood , Tarun Jain , Ujjwal Kakar and Sanchali Thareja 
 ## Features
 
 - **Versatile Audio Input**: The tool handles various audio sources, ensuring comprehensive coverage for different types of media.
