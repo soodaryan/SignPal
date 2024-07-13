@@ -1,0 +1,203 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #A9C9CE, rgb(255, 242, 242));
+    color: #ffffff;
+    z-index: -100;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    z-index: 200;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    z-index: 200;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.background-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("{% static 'images/logo.png' %}") no-repeat center center;
+    background-size: contain;
+    opacity: 0.1;
+    z-index: 100;
+}
+
+.user-icon {
+    font-size: 24px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    z-index: 200;
+}
+
+.hero-content {
+    margin-top: -150px;
+    flex: 1;
+    background-image: url("bglogo.jpeg");
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* .cta-buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup-btn {
+    background-color: #00c2cb;
+    color: #fff;
+}
+
+.login-btn {
+    background-color: #333;
+    color: #fff;
+} */
+
+.hero-image img {
+    margin-top: -100px;
+    max-width: 100%;
+    height: auto;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    z-index: 200;
+}
+
+.feature-box {
+    flex: 1;
+    background-color: #333;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.feature-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    font-size: 16px;
+}
+
+
+.cta-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    z-index: 1000;
+}
+
+.signup-btn {
+    background-color: #00c2cb;
+    color: #fff;
+    z-index: 1000;
+
+}
+
+.login-btn {
+    background-color: #333;
+    color: #fff;
+    z-index: 1000;
+
+}
+
+.video-container {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto 20px;
+}
+
+.video-placeholder {
+    width: 100%;
+    height: 360px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.text-input {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto 20px;
+}
+
+#speech-text {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+}
+
+#mic-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #00c2cb;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}

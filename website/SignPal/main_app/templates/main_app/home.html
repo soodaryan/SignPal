@@ -1,0 +1,54 @@
+<!-- main_app/templates/main_app/home.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignPal - Speech to Sign Language Converter</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="background-logo"></div>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="{% static 'images/logo.png' %}" alt="SignPal Logo">
+                <span>SignPal</span>
+            </div>
+        </header>
+
+        <main>
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>SignPal</h1>
+                    <h3>Your friendly digital avatar companion for effortless Sign Language Communication</h3>
+                    <p>SIGNPAL is an innovative tool designed to bridge the communication gap for the deaf community. Our goal is to enable seamless translation of all types of audio inputs, including phone calls, YouTube videos, and other media, into sign language in real-time. Here's how SIGNPAL will make a difference:</p>
+                    <div class="cta-buttons">
+                        <a href="{% url 'signup' %}" class="signup-btn" onclick="alert('Signup clicked')">Sign Up</a>
+                        <a href="{% url 'login' %}" class="login-btn" onclick="alert('Login clicked')">Log In</a>                     
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="{% static 'images/avatar.png' %}" alt="SignPal Avatar">
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="feature-box">
+                    <h3>Real-time Translation</h3>
+                    <p>Instantly convert speech to sign language animations.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Multiple Languages</h3>
+                    <p>Support for various sign languages from around the world.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Easy to Use</h3>
+                    <p>Simple interface for quick and efficient communication.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

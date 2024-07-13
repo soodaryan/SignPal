@@ -1,0 +1,22 @@
+{% extends 'main_app/base.html' %}
+{% load static %}
+
+{% block content %}
+<h2>Dashboard</h2>
+<div class="video-container" style="position: relative; width: 100%; height: 300px;">
+    <video id="sign-language-video" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; display: none;">
+        <source src="{% static 'videos/WhatsApp Video 2024-06-29 at 15.47.14.mp4' %}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div id="video-placeholder" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #ddd; display: flex; justify-content: center; align-items: center;">
+        Video Placeholder
+    </div>
+</div>
+<div class="text-input">
+    <textarea id="speech-text" rows="4" cols="50" readonly></textarea>
+</div>
+<button id="mic-button">🎤</button>
+<div id="status-message"></div>
+
+<script src="{% static 'js/speech_recognition.js' %}"></script>
+{% endblock %}
