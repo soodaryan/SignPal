@@ -20,11 +20,11 @@ SignPal is a complex system that uses NLTK, NLP models, SigML, and several other
 - **Accuracy**: More accurate and consistent than competitors in the market.
 - **Real-Time Translation**: With advanced AI and machine learning algorithms, SignPal delivers instantaneous translations, ensuring that users do not miss out on important conversations or information.
 
-## How it Works
+<-- ## How it Works
 
 <p align="center">
   <img src="images/flowchart.jpg" alt="SignPal Workflow" width="50%" />
-</p>
+</p> -->
 
 
 ## Installation
