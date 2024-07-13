@@ -22,4 +22,11 @@ SignPal is a complex system that uses NLTK, NLP models, SigML, and several other
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/SignPal.git
+   git clone https://github.com/c0der-aryan/SignPal.git
+2. Navigate to the project directory:
+   ```bash
+   cd SignPal
+3. Install the required dependencies: 
+   ```bash
+   pip install -r requirements.txt
+
