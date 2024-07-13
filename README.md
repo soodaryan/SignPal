@@ -8,8 +8,8 @@ SignPal is a complex system that uses NLTK, NLP models, SigML, and several other
 
 
 <p align="center">
-  <img src="images/Solution BWD.png" alt="SignPal Solution" width="45%" />
-  <img src="images/Impact&FutureScopes.png" alt="SignPal FutureScopes & Impact" width="45%" />
+  <img src="images/Solution BWD.png" alt="SignPal Solution" />
+  <img src="images/Impact&FutureScopes.png" alt="SignPal FutureScopes & Impact" />
 </p>
 
 ## Features
